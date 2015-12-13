@@ -7,5 +7,5 @@ Time <- as.POSIXct(paste(pow.cons[,1],as.character(pow.cons[,2])))
 
 ## Make plot
 png("plot2.png")
-plot(Time,pow.cons[,3],type="l", ylab="Global Active Power (kilowatts)")
+plot(Time,pow.cons[,3],type="l", ylab="Global Active Power (kilowatts)", xlab="")
 dev.off()
